@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using src.classes;
 using src.enums;
 
-
 namespace src.classes
 {
     public class SimpleStorage : IStorage
@@ -15,7 +14,7 @@ namespace src.classes
         { new SimpleOrder(Items.MOLOTOK, 5),
         new SimpleOrder(Items.MOLOTOK, 5) };
 
-    public void AppendStorage(Items item, int count)
+        public void AppendStorage(Items item, int count)
     {
         if (this.items.ContainsKey(item))
         {
