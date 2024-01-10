@@ -15,7 +15,7 @@ namespace src.classes
         new SimpleOrder(Items.MOLOTOK, 5) };
 
         public void AppendStorage(Items item, int count)
-    {
+        {
         if (this.items.ContainsKey(item))
         {
             items[item] += count;
@@ -63,3 +63,4 @@ namespace src.classes
     }
     }
 }
+
